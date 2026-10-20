@@ -1,0 +1,142 @@
+@import "core.css";
+
+.my-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: inherit;
+}
+.banner p{
+    max-width: 35%;
+    text-align: center;
+    margin: 20px 0;
+}
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+    font-size: 18px;
+}
+.contact-card:hover{
+    color:rgb(187, 0, 0)
+}
+.name-title{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin:  0;
+}
+.name-title h1, .name-title h2{
+    padding: 0;
+    margin: 0;
+}
+.name-title h1{
+    font-size: 90px;
+}
+.name-title h2{
+    text-align: right;
+    color: rgb(187, 0, 0);
+}
+.name-title .hi{
+    text-align: left;
+    color: rgb(187, 0, 0);
+}
+.name-title img{
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    height: 350px;
+    width: 275px;
+    clip-path: circle();
+}
+.cv-button{
+    width: 400px;
+    height: 100;
+    font-size: 30px;
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 20px 0;
+    margin: 0;
+}
+.about-me h1{
+    padding: 0;
+    margin: 0;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+.skills i{
+    font-size: 60px;
+}
+.skills i:hover{
+    color:rgb(187, 0, 0);
+    cursor: pointer;
+}
+.projects h1{
+    text-align: center;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.project-skills{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin: 0;
+    max-height: 25px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.skill h3{
+    color:white;
+    font-size: 20px;
+}
+.link:hover{
+    color: rgb(187, 0, 0);
+    cursor: pointer;
+}
