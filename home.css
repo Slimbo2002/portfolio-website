@@ -8,12 +8,12 @@
 .contact{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
     gap: 20px;
 }
 .contact a{
     text-decoration: none;
-    color: inherit;
 }
 .banner p{
     max-width: 35%;
@@ -42,7 +42,7 @@
     margin: 0;
 }
 .name-title h1{
-    font-size: 90px;
+    font-size: 40vw;
 }
 .name-title h2{
     text-align: right;
