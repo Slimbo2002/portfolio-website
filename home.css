@@ -62,8 +62,8 @@
     clip-path: circle();
 }
 .cv-button{
-    width: 400px;
-    height: 100;
+    max-width: 400px;
+    max-height: 100;
     font-size: 30px;
 }
 .about-me{
@@ -110,7 +110,7 @@
 
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin: 5px;
     padding: 10px;
 }
 .project-skills{
@@ -175,6 +175,9 @@
     .project-grid{
         grid-template-columns: 1fr;
     }
+    .project a{
+        font-size: 45px;
+    }
 }
 @media (max-width : 600px){
     .name-title h1{
@@ -206,6 +209,30 @@
     }
     .name-title h2{
         font-size: 30px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        align-items: center;
+    }
+    .contact a{
+        padding: 0;
+        margin: 0;
+    }
+    .banner p{
+        max-width: 100%;
+    }
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width : 400px){
+    .name-title h1{
+        font-size: 40px;
+    }
+    .name-title h2{
+        font-size: 25px;
     }
     .contact{
         display: flex;
