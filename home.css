@@ -117,6 +117,9 @@
     flex-direction: row;
     margin: 10px;
     gap: 10px;
+    margin-top: auto;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .skill{
     display: flex;
@@ -139,4 +142,53 @@
 .link:hover{
     color: rgb(187, 0, 0);
     cursor: pointer;
+}
+
+@media (max-width : 800px){
+    .name-title h1{
+        font-size: 70px;
+    }
+    .name-title h2{
+        font-size: 30px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        align-items: center;
+    }
+    .contact a{
+        padding: 0;
+        margin: 0;
+    }
+    .banner p{
+        max-width: 100%;
+    }
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width : 600px){
+    .name-title h1{
+        font-size: 60px;
+    }
+    .name-title h2{
+        font-size: 25px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        align-items: center;
+    }
+    .contact a{
+        padding: 0;
+        margin: 0;
+    }
+    .banner p{
+        max-width: 100%;
+    }
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
 }
