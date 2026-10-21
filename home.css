@@ -85,6 +85,7 @@
     gap: 20px;
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;
 }
 .skills i{
     font-size: 60px;
@@ -157,6 +158,12 @@
         flex-direction: column;
         gap:0px;
         align-items: center;
+    }
+    .contact h3{
+        text-decoration: underline;
+    }
+    .contact i{
+        font-size: 30px;
     }
     .contact a{
         padding: 0;
