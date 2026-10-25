@@ -7,6 +7,8 @@ a{
     color: black;
 }
 header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     border-bottom: 2px solid rgb(187, 0, 0);
     margin: 0;
     padding: 0;
@@ -50,6 +52,20 @@ button:hover{
 }
 .active{
     font-weight: bold;
+}
+.tracker{
+    grid-column: 1;
+    justify-self: start;
+    align-self: start;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.tracker h2, .tracker h3{
+    padding: 0;
+    margin: 0;
 }
 .navigation{
     display: flex;

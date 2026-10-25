@@ -10,11 +10,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />     
     </head>
-    <body>
+    <body onload="IncrementTracker()">
         <header>
+            <div class = "tracker">
+                <h3>Visitor No:</h3>
+                <h2 id ="visitor-tracker"></h2>
+            </div>
             <nav class ="navbar">
                 <ul class ="navigation">
-                    <li><a href = "home.html">Home</a></li>
+                    <li><a href = "index.html">Home</a></li>
                     <li><a href = "#skills">Skills</a></li>
                     <li><a href = "#projects">Projects</a></li>
                 </ul>
@@ -169,6 +173,6 @@
             </div>
         </section>
         
-        <script src="" async defer></script>
+        <script src="index.js" async defer></script>
     </body>
 </html>
