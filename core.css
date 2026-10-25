@@ -62,6 +62,9 @@ button:hover{
     border-radius: 10px;
     background-color: black;
     color: white;
+
+    padding: 5px;
+    margin: 10px;
 }
 .tracker h2, .tracker h3{
     padding: 0;
