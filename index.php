@@ -94,7 +94,7 @@
                             <h3>GitHub</h3>
                         </div>
                     </div>
-                    <a href = "https://github.com/Slimbo2002/f1-telemetry-website" class = "link">
+                    <a href = "https://slimbo2002.github.io/f1-telemetry-website/" class = "link">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
