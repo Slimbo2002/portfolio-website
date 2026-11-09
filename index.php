@@ -10,11 +10,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />     
     </head>
-    <body onload="IncrementTracker()">
+    <body">
         <header>
             <div class = "tracker">
-                <h3>Visitor No:</h3>
-                <h2 id ="visitor-tracker"></h2>
+                <h3>Visit Count:</h3>
+                <h2 id="visitor-tracker"><?php include 'counter.php'; ?></h2>
             </div>
             <nav class ="navbar">
                 <ul class ="navigation">
@@ -173,6 +173,6 @@
             </div>
         </section>
         
-        <script src="index.js" async defer></script>
+        <script src="" async defer></script>
     </body>
 </html>
