@@ -99,6 +99,34 @@
                     </a>
                 </div>
                 <div class = "project">
+                    <h2>Weather Forecast Site</h2>
+                    <p>
+                        Using Weatherapi.com I was able to create a website that allows the user to enter a location to see the weather forecast outlining temperature, high's, lows's and feels like!<br>
+                        As well as this the user will be able to see the forecast for the next 3 days as well showing the temperature and if necessary chance of rain!
+                    </p>
+                    <div class = "project-skills">
+                        <div class = "skill">
+                            <i class="fa-brands fa-html5"></i>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class = "skill">
+                            <i class="fa-brands fa-css"></i>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class = "skill">
+                            <i class="fa-brands fa-square-js"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class = "skill">
+                            <i class="fa-brands fa-github"></i>
+                            <h3>GitHub</h3>
+                        </div>
+                    </div>
+                    <a href = "https://slimbo2002.github.io/Weather-Site/" class = "link" target = "_blank">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+                <div class = "project">
                     <h2>Mars Rover Exploration</h2>
                     <p>
                         Developed a mars rover exploration system allowing the user to select the size of the plateau and input commands to direct where the user wants the rover to go.<br>
